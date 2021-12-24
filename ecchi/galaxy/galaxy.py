@@ -7,12 +7,33 @@ quit""")
 
 
 def sing_in():
-    print('welcome sing in')
+    print('welcome please wait ...')
+    messageandnickname()
 
+def messageandnickname(x  = True):
+    n = input("nickname enter:")
+    while x == True:
+        m = input(':')
+        f = ("{}: {}".format(n,m))
+        p = print(f)
+        if m == ".quit":
+            exit()
+        elif m == ".help":
+            print("no helper sorry.")
+        elif m == ".back":
+            x = False
+        elif m == ".report":
+            report()
 def sing_up():
-    print('welcome sing up')
+    folder = open(" sing-up.md","a")
+    n = input("name enter:")
+    p = input("passwork:")
+    folder.write(n)
+    folder.write(p)
+    folder.close
+    sing_in()
 
-def dark_menu():
+while x == True:
     first_menu()
     i=input(":")
     if i == "sing in":
@@ -21,4 +42,3 @@ def dark_menu():
         sing_up()
     elif i == "quit":
         exit()
-dark_menu()
