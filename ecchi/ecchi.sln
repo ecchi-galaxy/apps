@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "galaxy", "galaxy\galaxy.pyproj", "{BB967634-3E9B-4825-B9BA-66C7AFB0C261}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB967634-3E9B-4825-B9BA-66C7AFB0C261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB967634-3E9B-4825-B9BA-66C7AFB0C261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00E9D5D9-9D6A-4C09-9B54-BDB7F8DF43AC}
+	EndGlobalSection
+EndGlobal
