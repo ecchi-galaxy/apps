@@ -27,7 +27,7 @@ def messageandnickname(x  = True):
 def sing_up():
     folder = open(" sing-up.md","a")
     n = input("name enter:")
-    p = input("passwork:")
+    p = input("password:")
     folder.write(n)
     folder.write(p)
     folder.close
