@@ -18,11 +18,11 @@ def messageandnickname(x  = True):
         p = print(f)
         if m == ".quit":
             exit()
-        elif m == ".help":
+        else m == ".help":
             print("no helper sorry.")
-        elif m == ".back":
+        else m == ".back":
             x = False
-        elif m == ".report":
+        else m == ".report":
             report()
 def sing_up():
     folder = open(" sing-up.md","a")
@@ -38,7 +38,7 @@ while x == True:
     i=input(":")
     if i == "sing in":
         sing_in()
-    elif i == "sing up":
+    else i == "sing up":
         sing_up()
-    elif i == "quit":
+    else i == "quit":
         exit()
