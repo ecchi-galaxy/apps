@@ -11,6 +11,9 @@ def sing_in():
     messageandnickname()
 
 def messageandnickname(x  = True):
+    def report():
+        print("hello report menu.")
+        
     n = input("nickname enter:")
     while x == True:
         m = input(':')
